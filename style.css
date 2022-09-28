@@ -6,10 +6,12 @@
     box-sizing: border-box;
 }
 
-html{
+html,
+body {
     font-size: 10px;
     font-family: Comfortaa, Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
+    height: 100vh;
 }
 
 
@@ -295,4 +297,26 @@ footer img {
         height: 20px;
         float: left;
     }
+}
+
+
+#box {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#podcast-container {
+    background-image: url(../images/capa_sem_boneco.png);
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    justify-content:center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    padding-top: 30px;
 }
